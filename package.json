@@ -1,0 +1,39 @@
+{
+	"name": "market",
+	"version": "1.0.0",
+	"description": "Market service for TradePort",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/danielfamiyeh/tp-market-service.git"
+	},
+	"keywords": [
+		"Forex",
+		"Index",
+		"Funds",
+		"ETF",
+		"Stock",
+		"Market",
+		"TradePort"
+	],
+	"author": "Daniel Famiyeh",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/danielfamiyeh/tp-market-service/issues"
+	},
+	"homepage": "https://github.com/danielfamiyeh/tp-market-service#readme",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
+}
